@@ -46,7 +46,7 @@ export default function OrdersPage() {
                 {/* Orders Table */}
                 <div className="overflow-x-auto bg-white rounded-xl shadow-lg">
                     <table className="w-full border-collapse text-sm sm:text-base">
-                        <thead className="bg-gradient-to-r from-blue-100 to-indigo-100">
+                        <thead className="bg-gray-300">
                             <tr>
                                 <th className="px-6 py-3 text-left font-semibold text-gray-700">Order ID</th>
                                 <th className="px-6 py-3 text-left font-semibold text-gray-700">Customer</th>

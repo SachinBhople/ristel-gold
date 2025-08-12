@@ -2,7 +2,13 @@
 import React, { useState } from 'react';
 
 const Category = () => {
-    const [categories, setCategories] = useState([]);
+    const [categories, setCategories] = useState([
+        { id: 1, name: 'Gold Jewelry' },
+        { id: 2, name: 'Diamond Rings' },
+        { id: 3, name: 'Necklaces' },
+        { id: 4, name: 'Bracelets' }
+    ]);
+
     const [showModal, setShowModal] = useState(false);
     const [modalTitle, setModalTitle] = useState('Add New Category');
     const [categoryInput, setCategoryInput] = useState('');
@@ -88,7 +94,7 @@ const Category = () => {
             {/* Category Table */}
             <div className="overflow-x-auto">
                 <table className="w-full border border-gray-200 rounded-lg overflow-hidden text-black bg-white">
-                    <thead className="bg-gray-100 text-sm font-semibold">
+                    <thead className="bg-gray-300 text-sm font-semibold">
                         <tr>
                             <th className="text-left px-4 py-3">Name</th>
                             <th className="text-center px-4 py-3">Actions</th>

@@ -4,7 +4,12 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
 export default function SubCategory() {
-    const [subcategories, setSubcategories] = useState([]);
+    const [subcategories, setSubcategories] = useState([
+        { _id: 1, name: 'Gold Earrings', category: { name: 'Gold Jewelry' } },
+        { _id: 2, name: 'Diamond Necklaces', category: { name: 'Diamond Rings' } },
+        { _id: 3, name: 'Silver Bracelets', category: { name: 'Bracelets' } },
+        { _id: 4, name: 'Platinum Rings', category: { name: 'Luxury Rings' } }
+    ]);
     const [categories, setCategories] = useState(["new"]);
     const [modalOpen, setModalOpen] = useState(false);
     const [editId, setEditId] = useState(null);
@@ -77,7 +82,7 @@ export default function SubCategory() {
             </div>
 
             <table className="w-full border border-gray-200 rounded-lg overflow-hidden">
-                <thead className="bg-gray-100 text-sm font-semibold">
+                <thead className="bg-gray-300 text-sm font-semibold">
                     <tr>
                         <th className="text-left px-4 py-3">Name</th>
                         <th className="text-left px-4 py-3">Category</th>
@@ -86,7 +91,7 @@ export default function SubCategory() {
                 </thead>
                 <tbody>
                     {subcategories.map((sub) => (
-                        <tr key={sub._id} className="border-t border-gray-200 hover:bg-yellow-50 transition">
+                        <tr key={sub._id} className="border-t border-gray-200  transition">
                             <td className="px-4 py-3">{sub.name}</td>
                             <td className="px-4 py-3">{sub.category?.name || 'N/A'}</td>
                             <td className="px-4 py-3 text-center space-x-2">

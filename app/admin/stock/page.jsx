@@ -62,9 +62,9 @@ export default function StocksPage() {
                 </div>
 
                 {/* Stock Table */}
-                <div className="overflow-x-auto bg-white rounded-xl shadow-lg">
+                <div className="overflow-x-auto  rounded-xl shadow-lg">
                     <table className="w-full border-collapse">
-                        <thead className="bg-gradient-to-r from-yellow-100 to-yellow-100 sticky top-0">
+                        <thead className=" bg-slate-300 sticky top-0">
                             <tr>
                                 <th className="px-6 py-3 text-left text-sm font-semibold text-gray-700">Product</th>
                                 <th className="px-6 py-3 text-left text-sm font-semibold text-gray-700">Stock ID</th>

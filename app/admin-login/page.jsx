@@ -19,7 +19,7 @@ export default function AdminLogin() {
 
         // Dummy check
         if (formData.email === 'admin@example.com' && formData.password === 'admin123') {
-            router.push('/admin');
+            router.push('/admin/home');
         } else {
             alert('Invalid credentials');
         }

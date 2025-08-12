@@ -22,73 +22,86 @@ const products = [
     },
     {
         id: 3,
-        name: 'Traditional Bangles',
-        image: 'https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw9b9e2bbf/images/hi-res/512016VZG1A00_2.jpg?sw=480&sh=480',
+        name: 'Rajwada Vaibhav',
+        image: 'https://staticimg.tanishq.co.in/microsite/gold-page/assets/images/collection/51O5B1VOI2AP3.jpg',
         category: 'traditional',
         price: '₹50,000',
     },
     {
         id: 4,
-        name: 'Daily Wear Chain',
-        image: 'https://staticimg.tanishq.co.in/microsite/rivaah-homepage/assets/images/cards/diamond-jewellery.jpg',
+        name: 'Fern Glod Earrings',
+        image: 'https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw6d335820/images/hi-res/51D1D1DBVABA00_2.jpg?sw=640&sh=640',
         category: 'daily',
         price: '₹12,000',
     },
     {
         id: 5,
-        name: 'Wedding ',
+        name: 'Tamil Bride ',
         image: 'https://staticimg.tanishq.co.in/microsite/rivaah-homepage/assets/images/journey/7.png',
         category: 'wedding',
         price: '₹25,000',
     },
     {
         id: 6,
-        name: 'Womens Necklace',
-        image: 'https://staticimg.tanishq.co.in/microsite/rivaah-homepage/assets/images/journey/12.png',
+        name: 'Dazzling Diamond',
+        image: 'https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw24637c6e/images/hi-res/50D4B32NXABA02_2.jpg?sw=480&sh=480',
         category: 'diamond',
         price: '₹75,000',
     },
     {
         id: 7,
-        name: 'Traditional Bangles',
-        image: 'https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw9b9e2bbf/images/hi-res/512016VZG1A00_2.jpg?sw=480&sh=480',
+        name: 'Layered Legacy',
+        image: 'https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw6e2b74ba/images/hi-res/51O5GJ2AW1BAP3_1.jpg',
         category: 'traditional',
         price: '₹50,000',
     },
     {
         id: 8,
-        name: 'Daily Wear Chain',
-        image: 'https://staticimg.tanishq.co.in/microsite/rivaah-homepage/assets/images/cards/diamond-jewellery.jpg',
+        name: 'Circular Gold Earings',
+        image: 'https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw84108123/images/hi-res/512220SFOABA00_2.jpg?sw=640&sh=640',
         category: 'daily',
         price: '₹12,000',
     },
     {
         id: 9,
-        name: 'Wedding Jewellery',
-        image: 'https://staticimg.tanishq.co.in/microsite/rivaah-homepage/assets/images/journey/7.png',
+        name: 'Telgu Bride',
+        image: 'https://staticimg.tanishq.co.in/microsite/rivaah-homepage/assets/images/journey/12.png',
         category: 'wedding',
         price: '₹25,000',
     },
     {
         id: 10,
-        name: 'Womens Necklace',
-        image: 'https://staticimg.tanishq.co.in/microsite/rivaah-homepage/assets/images/journey/12.png',
+        name: 'Laced Reverie Diamond',
+        image: 'https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw984db1e1/images/hi-res/50O5SW2ARDBA09_2.jpg?sw=480&sh=480',
         category: 'diamond',
         price: '₹75,000',
     },
     {
         id: 11,
-        name: 'Traditional Bangles',
-        image: 'https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw9b9e2bbf/images/hi-res/512016VZG1A00_2.jpg?sw=480&sh=480',
+        name: 'Nakshi Elegance',
+        image: 'https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwebbbe997/images/hi-res/51W4PIVOJ2AP3_1.jpg',
         category: 'traditional',
         price: '₹50,000',
     },
     {
         id: 12,
-        name: 'Daily Wear Chain',
-        image: 'https://staticimg.tanishq.co.in/microsite/rivaah-homepage/assets/images/cards/diamond-jewellery.jpg',
+        name: 'Gold finger Ring',
+        image: 'https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw37fc740c/images/hi-res/51M4C1FFEAA00_1.jpg?sw=640&sh=640',
         category: 'daily',
         price: '₹12,000',
+    }, {
+        id: 13,
+        name: ' Kannadiga Bride',
+        image: 'https://staticimg.tanishq.co.in/microsite/rivaah-homepage/assets/images/journey/2.png',
+        category: 'wedding',
+        price: '₹25,000',
+    },
+    {
+        id: 14,
+        name: 'Whimsical Diamond',
+        image: 'https://www.tanishq.co.in/dw/image/v2/BKCK_PRD/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw7ec43fd6/images/hi-res/50O4VF2CIDBA02_2.jpg?sw=480&sh=480',
+        category: 'diamond',
+        price: '₹75,000',
     },
 ];
 
@@ -115,12 +128,12 @@ const CollectionProducts = () => {
                             key={product.id}
                             className="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden"
                         >
-                            <div className="relative w-full h-64">
+                            <div className="relative w-full mt-4 h-64">
                                 <Image
                                     src={product.image}
                                     alt={product.name}
                                     fill
-                                    className="object-cover"
+                                    className="object-contain   "
                                 />
                             </div>
 

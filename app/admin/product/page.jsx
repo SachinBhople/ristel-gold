@@ -44,8 +44,8 @@ export default function ProductsPage() {
                 {/* Products Table */}
                 <div className="overflow-x-auto bg-white rounded-xl shadow-lg">
                     <table className="w-full border-collapse">
-                        <thead className="bg-gradient-to-r from-indigo-100 to-purple-100 sticky top-0">
-                            <tr>
+                        <thead className="bg-gradient-to-r  border-gray-300 bg-gray-300  hover:bg-gray-300 sticky top-0">
+                            <tr>    
                                 <th className="px-6 py-3 text-left text-sm font-semibold text-gray-700">Product Name</th>
                                 <th className="px-6 py-3 text-left text-sm font-semibold text-gray-700">Stock ID</th>
                                 <th className="px-6 py-3 text-left text-sm font-semibold text-gray-700">Category</th>

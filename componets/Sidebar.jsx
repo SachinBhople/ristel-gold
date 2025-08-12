@@ -9,7 +9,8 @@ const links = [
     { href: '/admin/product', label: 'Products' },
     { href: '/admin/stock', label: 'Stock' },
     { href: '/admin/orders', label: 'Orders' },
-    { href: '/admin/customers', label: 'Customers' },
+    { href: '/admin/customer', label: 'Customers' },
+
 ];
 
 export default function Sidebar() {
@@ -17,7 +18,7 @@ export default function Sidebar() {
 
     return (
         <aside className="w-64 h-screen bg-gray-900 text-white p-6 shadow-lg sticky top-0">
-            <h2 className="text-2xl font-bold mb-8 text-center tracking-wide">Admin Panel</h2>
+            {/* <h2 className="text-2xl font-bold mb-8 text-center tracking-wide">Admin Panel</h2> */}
             <ul className="space-y-3">
                 {links.map(({ href, label }) => (
                     <li key={href}>

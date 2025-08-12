@@ -133,7 +133,7 @@ export default function FilterPage() {
                             key={product.id}
                             className="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden"
                         >
-                            <img src={product.image} alt={product.name} className="w-full h-64 object-cover" />
+                            <img src={product.image} alt={product.name} className="w-full h-64 object-contain" />
                             <div className="p-4">
                                 <h2 className="text-lg font-bold text-gray-500">{product.name}</h2>
                                 <p className="text-yellow-600 font-semibold">₹ {product.price.toLocaleString()}</p>
